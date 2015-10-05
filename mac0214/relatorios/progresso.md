@@ -104,10 +104,38 @@
   - [Vasya the Hipster](../../codeforces/322a.cpp)
   - [Luxurious Houses](../../codeforces/322b.cpp)
   - [Developing Skills](../../codeforces/322c.cpp)
-- [**Contest MaratonIME (Bixos)**](http://a2oj.com/Standings.jsp?ID=21354) - **(5h)**
-  - [Plane Ticket Pricing](../../livearchive/6867.cpp) em [Live Archive](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&category=666&page=show_problem&problem=4879)
+- [**Contest MaratonIME 30/09 (Bixos)**](http://a2oj.com/Standings.jsp?ID=21354) - **(5h)**
+  - **Time: [Não é a São Silvestre?](http://a2oj.com/Team.jsp?ID=2400)**
+  - [Plane Ticket Pricing](../../livearchive/6867.cpp) (Recursivo) em [Live Archive](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&category=666&page=show_problem&problem=4879)
   - [Eligibility](../../livearchive/6866.cpp) em [Live Archive](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&category=666&page=show_problem&problem=4878)
   - [Facility Locations](../../livearchive/6868.cpp) em [Live Archive](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&category=666&page=show_problem&problem=4880)
   - [Permutation Recovery](../../livearchive/3579.cpp) em [Live Archive](https://icpcarchive.ecs.baylor.edu/index.php?option=onlinejudge&page=show_problem&problem=1580)
   - [The day of the competitors](../../spoj/niceday.cpp) em [SPOJ](http://br.spoj.com/problems/NICEDAY/)
+- [**Contest MaratonIME 02/10 (Bixos)**](http://a2oj.com/Standings.jsp?ID=21452) - **(5h)**
+ - **Time: [viniagostini](http://a2oj.com/Profile.jsp?Username=vinicius.agostini) e [gabrielrc](http://a2oj.com/Profile.jsp?Username=gabrielrc)**
+ - [Botas Perdidas](../../spoj/botas.cpp) em [SPOJ](http://br.spoj.com/problems/BOTAS/)
+ - [Campeonato de SMS](../../spoj/campeonato.cpp) em  [URI](https://www.urionlinejudge.com.br/judge/en/problems/view/1458)
+ - [Estacionamento](../../spoj/estacionamento.cpp) em [SPOJ](http://br.spoj.com/problems/ESTAC/)
+ - [Foco](../../spoj/foco.cpp) em [SPOJ](http://br.spoj.com/problems/FOCO/)
+ - [Guarda Costeira](../../guarda.cpp) em [SPOJ](http://br.spoj.com/problems/GUARDCOS/)
+- [**ICPC North America Qualifier 2015**](https://naq15.kattis.com/problems) - **(5h)**
+ - **Time: [viniagostini](http://a2oj.com/Profile.jsp?Username=vinicius.agostini) e [gabrielrc](http://a2oj.com/Profile.jsp?Username=gabrielrc)**
+ - [Bobby's Bet](../../kattis/naq15b.cpp)
+ - [Circuit Counting](../../kattis/naq15d.cpp)
+ - [Quick Brown Fox](../../kattis/naq15f.cpp)
+ - [Safe Passage](../../kattis/naq15g.cpp)
+ - [Secret Message](../../kattis/naq15h.cpp)
+ - [Simon Says](../../kattis/naq15i.cpp)
+ - [Torn to Pieces](../../kattis/naq15j.cpp)
 
+## Semana 10 (04 - 10 Outubro)
+**Exercícios Resolvidos:**
+ - [Ácido Ribonucléico Alienígena](../../spoj/rnaa.cpp) em [SPOJ](http://br.spoj.com/problems/ACIDO/)
+ - [Easy LIS](../../spoj/easylis.cpp) em [SPOJ](http://www.spoj.com/problems/ELIS/)
+ - [BATMAN3](../../spoj/bat3.cpp) em [SPOJ](http://www.spoj.com/problems/BAT3/)
+ - [Plane Ticket Pricing](../../livearchive/6867iter.cpp) (Iterativo) em [Live Archive](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&category=666&page=show_problem&problem=4879)
+ 
+**Leituras:**
+ - [Dynamic Programming - From Novice to Advanced](https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/)
+ - [Dynamic Programming - Jeff Erickson](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/05-dynprog.pdf)
+ - [Linear Recurrences - Jeff Erickson](jeffe.cs.illinois.edu/teaching/algorithms/notes/99-recurrences.pdf)
