@@ -1,0 +1,21 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int n, m, c, ans;
+
+int main () {
+	while (scanf ("%d %d %d", &n, &m, &c) && n != 0 && m != 0) {
+		n -= 7;
+		m -= 7;
+		ans = (n * m + 1) / 2;
+		if (n % 2 == 0 || m % 2 == 0) 
+			printf ("%d\n", ans);
+		else {
+			if (c == 0)
+				printf ("%d\n", ans - 1);
+			else 
+				printf ("%d\n", ans);
+		}
+	}
+}	
