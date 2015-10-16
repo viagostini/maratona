@@ -52,8 +52,9 @@ int main(){
 			
 			if(g[a] > 2 || g[b] > 2) bad = true;
 		}
-		if(!ok && comp == 1) puts("Y");
-		else if(bad) puts("N");
-		else puts("N");
+		if (bad) puts("N");
+		else if(!ok && comp == 1) puts("Y");
+		else if (!ok && comp > 1 ) puts("N");
+		else if (ok) puts("Y");
 	}
 }
