@@ -13,7 +13,9 @@ int find(int i){
 }
 
 bool join(int a, int b){
-	if(a == b) return false;
+	if(a == b){
+		return false;
+	}
 	p[b] = a;	
 	comp--;
 	return true;
@@ -23,7 +25,7 @@ int main(){
 	int k, w, x, y;
 
 	while(scanf("%d %d", &k, &w) && k != 0){
-		bool ok, bad = false;
+		bool ok = true, bad = false;
 		s.clear();
 		g.clear();
 		p.clear();
@@ -43,7 +45,7 @@ int main(){
 				p[b] = b;
 			
 			ok &= join(find(a), find(b));
-
+			printf("ok = %d\n", ok);
 			if(g.find(a) == g.end())
 				g[a] = 0;
 			if(g.find(b) == g.end())
@@ -52,6 +54,7 @@ int main(){
 			
 			if(g[a] > 2 || g[b] > 2) bad = true;
 		}
+		printf("comp = %d\n", comp);
 		if (bad) puts("N");
 		else if(!ok && comp == 1) puts("Y");
 		else if (!ok && comp > 1 ) puts("N");
