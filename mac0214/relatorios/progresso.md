@@ -130,7 +130,7 @@
  - [Simon Says](../../kattis/naq15i.cpp)
  - [Torn to Pieces](../../kattis/naq15j.cpp)
 
-## Semana 10 (04 - 10 Outubro)
+## Semana 10 (04 - 10 de Outubro)
 **Exercícios Resolvidos:**
  - [Ácido Ribonucléico Alienígena](../../spoj/rnaa.cpp) em [SPOJ](http://br.spoj.com/problems/ACIDO/)
  - [Easy LIS](../../spoj/easylis.cpp) em [SPOJ](http://www.spoj.com/problems/ELIS/)
@@ -149,7 +149,7 @@
  - [Dynamic Programming - Jeff Erickson](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/05-dynprog.pdf)
  - [Linear Recurrences - Jeff Erickson](jeffe.cs.illinois.edu/teaching/algorithms/notes/99-recurrences.pdf)
 
-## Semana 10 (11 de Outubro - 17 de Outubro)
+## Semana 11 (11 de Outubro - 17 de Outubro)
 **Exercícios Resolvidos:**
  - [A. Duff and Meat](../../codeforces/588a.cpp) em [Codeforces](http://codeforces.com/problemset/problem/588/A)
  - [A. Initial Bet](../../codeforces/478a.cpp) em [Codeforces](http://codeforces.com/problemset/problem/478/A)
