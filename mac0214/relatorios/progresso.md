@@ -1,19 +1,21 @@
 #                    MAC0214 - Atividade Curricular em Cultura e Extensão
 
 ###Índice
-  - [Semana 1](#semana-1-3---9-agosto)
-  - [Semana 2](#semana-2-10---16-agosto)
-  - [Semana 3](#semana-3-17---23-agosto)
-  - [Semana 6](#semana-6-7---13-setembro)
-  - [Semana 7](#semana-7-14---20-setembro)
-  - [Semana 8](#semana-8-21---27-setembro)
+  - [Semana 1](#semana-1-3---9-de-agosto)
+  - [Semana 2](#semana-2-10---16-de-agosto)
+  - [Semana 3](#semana-3-17---23-de-agosto)
+  - [Semana 6](#semana-6-7---13-de-setembro)
+  - [Semana 7](#semana-7-14---20-de-setembro)
+  - [Semana 8](#semana-8-21---27-de-setembro)
   - [Semana 9](#semana-9-28-de-setembro---03-de-outubro)
-  - [Semana 10](#semana-10-04-de-outubro---10-de-outubro)
-  - [Semana 11](#semana-11-11-de-outubro---17-de-outubro)
+  - [Semana 10](#semana-10-04---10-de-outubro)
+  - [Semana 11](#semana-11-11---17-de-outubro)
+  - [Semana 12](#semana-12-18---24-de-outubro)
+  - [Semana 13](#semana-13-25-de-outubro---01-de-novembro)
 
 
 
-## Semana 1 (3 - 9 Agosto)
+## Semana 1 (3 - 9 de Agosto)
 **Exercícios Resolvidos:**
   - Seção Ad-Hoc em [TOBI](http://olimpiada.ic.unicamp.br/tobi/) 
 	- [Copa do Mundo](../../TOBI/copadomundo.cpp)
@@ -34,7 +36,7 @@
     - Nasty Hacks em [PKU](http://poj.org/problem?id=3030)
     - [Card Trick](https://github.com/viagostini/maratona/blob/master/PKU/cardtrick.cpp) em [PKU](http://poj.org/problem?id=3032)
 
-## Semana 2 (10 - 16 Agosto)
+## Semana 2 (10 - 16 de Agosto)
 **Exercícios Resolvidos:**
   - Seção Ad-Hoc em [TOBI](http://olimpiada.ic.unicamp.br/tobi/):
   	- [Supermercado](../../tobi/supermercado.cpp)
@@ -45,7 +47,7 @@
   - Time: [Não é a São Silvestre?](http://a2oj.com/Team.jsp?ID=2400)
   - Classificação: [#8](http://ime.usp.br/~maratona/assets/post_files/2015-08-18-resultados-seletiva/detailscore.html)
 
-## Semana 3 (17 - 23 Agosto)
+## Semana 3 (17 - 23 de Agosto)
 **Exercícios Resolvidos:**
  - Seção Ad-Hoc em [TOBI](http://olimpiada.ic.unicamp.br/tobi/):
   - [Temperatura Lunar](../../tobi/temperatura.cpp)
@@ -64,14 +66,14 @@
 **Leituras:**
  - [Dynamic Programming](https://www.hackerearth.com/notes/dynamic-programming-i-1/)
 
-## Semana 6 (7 - 13 Setembro)
+## Semana 6 (7 - 13 de Setembro)
 - [**Primeira Fase - Maratona de Programação da SBC**](http://maratona.ime.usp.br/prim-fase15/maratona.pdf) - **(5h)**
  - Time: [Não é a São Silvestre?](http://a2oj.com/Team.jsp?ID=2400)
  - Classificação: [#4](http://maratona.ime.usp.br/prim-fase15/saopaulo/Detailed_Scoreboard.pdf)
 
 - [Even Obsession](../../uva/evenobsession.cpp) em [UVa](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=4829)
 
-## Semana 7 (14 - 20 Setembro)
+## Semana 7 (14 - 20 de Setembro)
 
   - [Rectangle Park](../../uva/rectpark.cpp) em [UVa](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=4836)
   - [The Knapsack Problem](../../spoj/knapsackproblem.cpp) em [SPOJ](http://www.spoj.com/problems/KNAPSACK/)
@@ -86,7 +88,7 @@
   - [City and Fireman Vincent](../../codemonk/cityandfireman.cpp) em [HackerEarth](https://www.hackerearth.com/code-monk-disjoint-set-union/algorithm/city-and-fireman-vincent/)
   - [City and Campers](../../codemonk/cityandcampers.cpp) em [HackerEarth](https://www.hackerearth.com/code-monk-disjoint-set-union/algorithm/city-and-campers/)
 
-## Semana 8 (21 - 27 Setembro)
+## Semana 8 (21 - 27 de Setembro)
   - [Update the array !](../../spoj/updateit.cpp) em [SPOJ](http://www.spoj.com/problems/UPDATEIT/)
   - [Inversion Count](../../spoj/invcount.cpp) em [SPOJ](http://www.spoj.com/problems/INVCNT/)
   - [A. Kefa and First Steps](../../codeforces/321a.cpp) em [Codeforces](http://codeforces.com/contest/580/problem/A)
@@ -149,7 +151,7 @@
  - [Dynamic Programming - Jeff Erickson](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/05-dynprog.pdf)
  - [Linear Recurrences - Jeff Erickson](jeffe.cs.illinois.edu/teaching/algorithms/notes/99-recurrences.pdf)
 
-## Semana 11 (11 de Outubro - 17 de Outubro)
+## Semana 11 (11 - 17 de Outubro)
 **Exercícios Resolvidos:**
  - [A. Duff and Meat](../../codeforces/588a.cpp) em [Codeforces](http://codeforces.com/problemset/problem/588/A)
  - [A. Initial Bet](../../codeforces/478a.cpp) em [Codeforces](http://codeforces.com/problemset/problem/478/A)
@@ -160,9 +162,6 @@
  - [B. Work Hard](../../codeforces/61b.cpp) em [Codeforces](http://codeforces.com/problemset/problem/61/B)
  - [C. Table Decorations](../../codeforces/478c.cpp) em [Codeforces](http://codeforces.com/problemset/problem/478/C) 
  - [C. Duff and Weight Lifting](../../codeforces/587a.cpp) em [Codeforces](http://codeforces.com/problemset/problem/587/A)
- - [D. Flowers](../../codeforces/474d.cpp) em [Codeforces](http://codeforces.com/problemset/problem/474/D)
- - [D. Queue](../../codeforces/545d.cpp) em [Codeforces](http://codeforces.com/problemset/problem/545/D)
- - [E. Paths and Trees](../../codeforces/545e.cpp) em [Codeforces](http://codeforces.com/problemset/problem/545/E)
 
 **Contests:**
  - [Contest MaratonIME 16/10 (Bixos)](http://a2oj.com/Standings.jsp?ID=21941)
@@ -171,3 +170,26 @@
   - [The Bus Driver Problem](../../11389.cpp) em [UVa](https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=2384)
   - [Isosceles Triangles](../../4480.cpp) em [Live Archive](https://icpcarchive.ecs.baylor.edu/index.php?option=onlinejudge&page=show_problem&problem=2481) (Pós-contest)
   - [Kid's Wishes](../../4815.cpp) em [Live Archive](https://icpcarchive.ecs.baylor.edu/index.php?option=onlinejudge&page=show_problem&problem=2816) (Pós-contest)
+
+## Semana 12 (18 - 24 de Outubro)
+**Exercícios Resolvidos:**
+ - [A. Slightly Decreasing Permutations](../../codeforces/285a.cpp) em [Codeforces](http://codeforces.com/problemset/problem/285/A)
+ - [B. Find Marble](../../codeforces/285b.cpp) em [Codeforces](http://codeforces.com/problemset/problem/285/B)
+ - [B. Maximal Area Quadrilateral](../../codeforces/340b.cpp) em [Codefoces](http://codeforces.com/problemset/problem/340/A)
+ - [C. Building Permutation](../../codeforces/285c.cpp) em [Codeforces](http://codeforces.com/problemset/problem/285/C)
+ - [D. Flowers](../../codeforces/474d.cpp) em [Codeforces](http://codeforces.com/problemset/problem/474/D)
+ - [D. Queue](../../codeforces/545d.cpp) em [Codeforces](http://codeforces.com/problemset/problem/545/D)
+ - [D. Bear and Blocks](../../codeforces/573b.cpp) em [Codeforces](http://codeforces.com/problemset/problem/573/B)
+ - [D. Bubble Sort Graph](../../codeforces/340d.cpp) em [Codeforces](http://codeforces.com/problemset/problem/340/D)
+ - [D. Common Divisors](../../codeforces/182d.cpp) em [Codeforces](http://codeforces.com/problemset/problem/182/D)
+ - [E. Tetrahedron](../../codeforces/166e.cpp) (Matrix Expo) em [Codeforces](http://codeforces.com/problemset/problem/166/E)
+ - [E. Tetrahedron](../../codeforces/166e_2.cpp) (DP) em [Codeforces](http://codeforces.com/problemset/problem/166/E)
+ - [E. Paths and Trees](../../codeforces/545e.cpp) em [Codeforces](http://codeforces.com/problemset/problem/545/E)
+ - [E. Pashmak and Graph](../../codeforces/459e.cpp) em [Codeforces](http://codeforces.com/problemset/problem/459/E)
+
+## Semana 13 (25 de Outubro - 01 de Novembro)
+**Exercícios Resolvidos:**
+ - [A. Wizards' Duel](../../codeforces/591a.cpp) em [Codeforces](http://codeforces.com/problemset/problem/591/A)
+ - [B. Rebranding](../../codeforces/591b.cpp) em [Codeforces](http://codeforces.com/problemset/problem/591/B)
+ - [C. LCM Challenge](../../codeforces/235a.cpp) em [Codeforces](http://codeforces.com/problemset/problem/235/A)
+ - [D. Greenhouse Effect](../../codeforces/269b.cpp) em [Codeforces](http://codeforces.com/problemset/problem/269/B)
