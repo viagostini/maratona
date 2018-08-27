@@ -6,59 +6,47 @@ using namespace std;
 
 // returns index where x is found or -1 if it is not
 int binary_search (const vector<int>& a, int x) {
-    int lo = 0, hi = a.size()-1;
+  int lo = 0, hi = a.size()-1;
  
-    while (lo <= hi) {
-        int mid = lo + (hi-lo)/2; 
+  while (lo <= hi) {
+    int mid = lo + (hi-lo)/2; 
 
-        if (x == a[mid])
-        return mid;
-
-        else if (x > a[mid])
-        lo = mid + 1;
-
-        else
-        hi = mid - 1;
-    }
+    if (x == a[mid])
+      return mid;
     
-    return -1;
+    else if (x > a[mid])
+      lo = mid + 1;
+    
+    else
+      hi = mid - 1;
+  }
+
+  return -1;
 }
 
-// if x doesn't exist, returns index of first element > x.
-// if x > all(a), returns a.size()
-// if x < all(a), returns 0
-// if there are many occurences of x, returns the index of the first
+// returns index of first element >= x
 int lower_bound (const vector<int>& a, int x) {
     int lo = 0, hi = a.size();
-    
     while (lo < hi) {
         int mid = lo + (hi - lo) / 2;
-        
         if (x <= a[mid])
             hi = mid;
-            
         else
             lo = mid + 1;
     }
-    
     return lo;
 }
 
 // returns index to the first element > x
-// if x > all(a), returns a.size()
 int upper_bound (const vector<int>& a, int x) {
     int lo = 0, hi = a.size();
-    
     while (lo < hi) {
         int mid = lo + (hi - lo) / 2;
-    
         if (x >= a[mid])
             lo = mid + 1;
-        
         else
             hi = mid;
     }
-    
     return lo;
 }
 
