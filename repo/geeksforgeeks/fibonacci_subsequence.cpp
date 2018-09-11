@@ -5,7 +5,7 @@
 
 using namespace std;
 
-vector<int> findFibonacciSubset (vector<int> a) {
+vector<int> findFibonacciSubseq (vector<int> a) {
     int f1 = 1, f2 = 1;
     vector<int> ans;
     unordered_set<int> s;
@@ -28,7 +28,7 @@ vector<int> findFibonacciSubset (vector<int> a) {
 
 int main() {
     vector<int> a{1, 5, 6, 9, 3, 13, 27, 15};
-    vector<int> fib = findFibonacciSubset(a);
+    vector<int> fib = findFibonacciSubseq(a);
     for (auto val : fib)
         printf("%d ", val);
     printf("\n");
