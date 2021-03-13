@@ -6,11 +6,11 @@ int cnt = 0;
 vector<int> adj[105];
 vector<int> color(105, -1);
 
-void dfs(int u) {
+void dfs(int u, int c) {
+    color[u] = c;
     for (int v : adj[u]) {
         if (color[v] == -1) {
-            color[v] = (color[u] + 1) % 2;
-            dfs(v);
+            dfs(v, (c + 1) % 2);
         } else if (color[v] == color[u]) {
             cnt++;
         }
@@ -30,8 +30,7 @@ int main() {
 
     for (int i = 0; i < n; i++) {
         if (color[i] == -1) {
-            color[i] = 0;
-            dfs(i);
+            dfs(i, 0);
         }
     }
 
