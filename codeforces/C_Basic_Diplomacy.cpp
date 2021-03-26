@@ -29,16 +29,8 @@ int main() {
             return a.second.size() < b.second.size();
         });
 
-        // for (auto p : d) {
-        //     cout << "i: " << p.first << " f: ";
-        //     for (auto fi : p.second) {
-        //         cout << fi << " ";
-        //     }
-        //     cout << endl;
-        // }
-
-        bool possible = true;
         // greedily pick friends from each day
+        bool possible = true;
         for (auto p : d) {
             for (auto fi : p.second) {
                 if (freq[fi] < limit) {
