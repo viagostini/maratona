@@ -15,32 +15,36 @@ int main() {
         int n, c;
         cin >> n >> c;
 
+        if (c < n - 1 || c > ((n - 1) * n / 2 + n - 1)) {
+            cout << "Case #" << tc << ": IMPOSSIBLE" << endl;
+            continue;
+        }
+
         vi a(n);
         iota(a.begin(), a.end(), 1);
 
-        bool possible = false;
-        do {
-            int cost = 0;
-            vi b(a);
-            for (int i = 0; i < n - 1; i++) {
-                auto x = find(b.begin(), b.end(), i + 1) - b.begin();
-                reverse(b.begin() + i, b.begin() + x + 1);
-                int d = x - i + 1;
-                cost += d;
+        int need = c - (n - 1);
+        c = (n - 1);
+        for (int turn = 1, i = 0, j = n - 1; i < j && need > 0; turn++) {
+            if (need >= (n - turn)) {
+                need -= (n - turn);
+                c += (n - turn);
+                reverse(a.begin() + i, a.begin() + j + 1);
+                if (turn % 2) {
+                    j--;
+                } else {
+                    i++;
+                }
+            } else {
+                reverse(a.begin() + i, a.begin() + i + need + 1);
+                c += need;
+                need = 0;
             }
-            if (cost == c) {
-                possible = true;
-                break;
-            }
-        } while (next_permutation(a.begin(), a.end()));
-        if (possible) {
-            cout << "Case #" << tc << ": ";
-            for (int x : a) {
-                cout << x << " ";
-            }
-            cout << endl;
-        } else {
-            cout << "Case #" << tc << ": IMPOSSIBLE" << endl;
         }
+        cout << "Case #" << tc << ": ";
+        for (auto x : a) {
+            cout << x << " ";
+        }
+        cout << endl;
     }
 }
